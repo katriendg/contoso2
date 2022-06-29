@@ -1,0 +1,3 @@
+resources:
+- hello-nginx-deployment.yaml
+- hello-nginx-svc.yaml
