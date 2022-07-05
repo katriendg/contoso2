@@ -5,7 +5,7 @@ resources:
 namespace: hello-nginx-app
 
 configMapGenerator:
-- name: configuration-ipaddresses
+- name: index-html-configmap
   behavior: replace
   files:
   - index.html
