@@ -3,3 +3,9 @@ resources:
 - namespace.yaml
 
 namespace: hello-nginx-app
+
+configMapGenerator:
+- name: configuration-ipaddresses
+  behavior: replace
+  files:
+  - index.html
