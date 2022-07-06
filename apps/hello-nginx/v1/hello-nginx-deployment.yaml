@@ -15,7 +15,8 @@ spec:
         app: hello-nginx
     spec:
       containers:
-      - image: nginx:latest
+      - image: nginx:1.23.0
+        imagePullPolicy: IfNotPresent
         name: nginx
         ports:
         - containerPort: 80
